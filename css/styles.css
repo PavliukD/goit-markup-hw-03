@@ -12,18 +12,34 @@
 
 /*global*/
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
   background-color: var (var(--main-body-color));
+  margin: 0px;
 }
 
 ul {
   list-style-type: none;
+  margin: 0px;
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0px;
 }
 
 /*header*/
@@ -32,6 +48,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  outline: 2px solid tomato;
 }
 
 .logo {
@@ -72,6 +89,7 @@ a {
 /*hero*/
 .hero {
   background-color: var(--hero-background-color);
+  outline: 2px solid tomato;
 }
 
 .hero-title {
@@ -81,6 +99,7 @@ a {
   text-align: center;
   line-height: 1.36;
   font-weight: 900;
+  margin: 0px;
 }
 
 .hero-button {
@@ -111,11 +130,13 @@ a {
 
 .features {
   font-size: 14px;
+  outline: 2px solid tomato;
 }
 
 .features-title {
   color: var(--secondary-text-color);
   line-height: 1.2;
+  margin: 0px;
 }
 
 .features-text {
@@ -128,10 +149,16 @@ a {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
+  margin: 0px;
+}
+
+.what-are-we-doing-section {
+  outline: 2px solid tomato;
 }
 
 .our-team {
   background-color: var(--section-secondary-background-color);
+  outline: 2px solid tomato;
 }
 
 .name {
@@ -139,6 +166,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  margin: 0px;
 }
 
 .profession {
@@ -150,6 +178,7 @@ a {
 
 .footer {
   background-color: var(--hero-background-color);
+  outline: 2px solid tomato;
 }
 
 .footer-logo {
@@ -172,6 +201,9 @@ a {
 }
 
 /*portfolio*/
+.portfolio {
+  outline: 2px solid tomato;
+}
 
 .filter-button {
   font-family: inherit;
@@ -195,6 +227,7 @@ a {
   color: var(--secondary-text-color);
   font-size: 18px;
   line-height: 2;
+  margin: 0px;
 }
 
 .portfolio-type {
