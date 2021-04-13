@@ -163,7 +163,8 @@ p {
 .features {
   font-size: 14px;
   outline: 2px solid tomato;
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-list {
@@ -195,8 +196,8 @@ p {
 }
 
 .what-are-we-doing-section {
-  margin-top: 94px;
   outline: 2px solid tomato;
+  padding-bottom: 94px;
 }
 
 .what-are-we-doing-list {
@@ -207,16 +208,16 @@ p {
 
 .our-team {
   background-color: var(--section-secondary-background-color);
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .our-team-title {
-  padding-top: 94px;
-  padding-bottom: 50px;
 }
 
 .out-team-list {
-  margin-top: 94px;
+  display: flex;
+  margin-top: 50px;
 }
 
 .name {
@@ -278,7 +279,6 @@ p {
 }
 
 .filter {
-  padding-bottom: ;
 }
 
 .filter-button {
@@ -320,7 +320,7 @@ p {
   height: 0px;
 }
 
-/*container*/
+/*conteiner*/
 
 .conteiner {
   width: 1200px;
